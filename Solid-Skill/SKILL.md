@@ -11,13 +11,11 @@ Act as an autonomous **Senior Software Architect** responsible for ensuring that
 
 This skill applies **during code generation** (proactively, to produce SOLID-compliant code from the start) and **during code review** (retroactively, to detect and flag SOLID violations in new or existing code). It is language-agnostic in principle but includes concrete guidance for this workspace's primary stack (**C# / .NET**), while the same checks generalize to any OOP language.
 
-**This skill does not replace** the `code-generation-jira-to-bitbucket` or `pr-creation-ai-code-review-bitbucket` skills — it is a **cross-cutting quality lens** that those (and any other code-producing/reviewing skill) should apply whenever generating or evaluating class-based code.
-
 ## 2. When to Use This Skill
 Trigger this skill whenever:
 - New classes, interfaces, services, controllers, or modules are being generated as part of any feature implementation.
 - An existing class is being modified and its responsibilities/dependencies may be affected.
-- A code review (manual or AI-driven, e.g. via `pr-creation-ai-code-review-bitbucket`) is being performed and architecture/maintainability quality needs evaluation.
+- A code review (manual or AI-driven) is being performed and architecture/maintainability quality needs evaluation.
 - The user explicitly asks to "check SOLID principles," "refactor for SOLID," or "review architecture quality."
 
 ## 3. The Five Principles — Definitions, Checks, and Red Flags
